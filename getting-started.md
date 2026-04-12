@@ -29,7 +29,7 @@ After visiting one of the download links you should be inside an Madium Server.
 
 * If you are in Madium Server visit the [`#downloads`](https://discord.com/channels/1483453559692595252/1483498936680317049)  channel and complete the work ink from the latest download.
 
-> After completing Work Ink you should be taken to a GoFile page containing `Madium-Bootstrapper`. Which you should download.
+> After completing Work Ink you should be taken to a GoFile page containing `Madium-Launcher`. Which you should download.
 
 
 

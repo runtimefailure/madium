@@ -7,10 +7,6 @@ icon: hand-sparkles
 
 # Support
 
-
-
-
-
 ### Dependencies
 
 _Here are the required dependencies in order for_ [_<mark style="color:$primary;">**Madium**</mark>_](#user-content-fn-1)[^1] _to function properly._
@@ -39,6 +35,11 @@ _Here are the required dependencies in order for_ [_<mark style="color:$primary;
 * [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap/releases/download/v2.9.1/Bloxstrap-v2.9.1.exe) _(the starting point)_
 * [VoidStrap ](https://github.com/voidstrap/Voidstrap/releases/download/v1.1.0.3/Voidstrap.exe)_(use at <mark style="color:$danger;">your</mark> own risk)_
 * [FrostStrap](https://github.com/Meddsam/Froststrap/releases/download/v1.1.1.0/Froststrap-v1.1.1.0.exe) (for performance)
+
+{% hint style="info" %}
+Following bootstrappers are provided for [faq.md](faq.md "mention") (linux guide using winboat). If you are running Windows you can ignore thease.
+{% endhint %}
+
 * [Lution](https://lution.chip.is-a.dev/) _(for linux)_
 * [Lucem](https://github.com/equinoxhq/lucem) _(for linux)_
 
@@ -47,29 +48,21 @@ _Here are the required dependencies in order for_ [_<mark style="color:$primary;
 _If you're experiencing issues with_ [_<mark style="color:$primary;">**Madium**</mark>_](#user-content-fn-1)[^1]_, a VPN can often resolve them instantly._
 
 * [Cloudflare WARP](https://1111-releases.cloudflareclient.com/windows/Cloudflare_WARP_Release-x64.msi) _(free dns resolver)_
-* [ProtonVPN](https://protonvpn.com/download/ProtonVPN_v4.3.13_x64.exe)  (_recommended_)
+* [ProtonVPN](https://protonvpn.com/download/ProtonVPN_v4.3.13_x64.exe) (_recommended_)
 * [Mullvad VPN](https://mullvad.net/en/download/installer/exe/latest) _(paid)_
 * [Windscribe VPN](https://windscribe.com/install/desktop/windows) _(free)_
 
 ***
-
-
-
-
-
-
-
-
 
 {% include ".gitbook/includes/roblox-version-mismatch-u....md" %}
 
 This issue usually happens because your Roblox installation is outdated, or you're running an outdated version of Madium[^1].
 
 {% hint style="info" %}
-<mark style="color:blue;">**Note**</mark>  When a version mismatch occurs, [_<mark style="color:$primary;">**Madium**</mark>_](#user-content-fn-1)[^1] displays the exact Roblox version you need inside its console. Use that version if you need to downgrade.
+<mark style="color:blue;">**Note**</mark> When a version mismatch occurs, [_<mark style="color:$primary;">**Madium**</mark>_](#user-content-fn-1)[^1] displays the exact Roblox version you need inside its console. Use that version if you need to downgrade.
 {% endhint %}
 
-> Head over to [inject.today/rdd](https://inject.today/rdd) to download the latest [<mark style="color:$primary;">LIVE</mark> ](#user-content-fn-2)[^2]version of Roblox. Once you’ve got it, simply run the  `launcher.exe`  file to start Roblox and then re-attach. If you’re still experiencing issues, don’t worry just go to  `%appdata%\Madium\Bin`  and delete everything inside that folder. Then, grab a fresh copy of Madium from the [#download](https://discord.com/channels/1483453559692595252/1483497359748104344) channel or simply launch your bootstrapper to let it fully update Madium and then re-attach.
+> Head over to [inject.today/rdd](https://inject.today/rdd) to download the latest [<mark style="color:$primary;">LIVE</mark> ](#user-content-fn-2)[^2]version of Roblox. Once you’ve got it, simply run the `launcher.exe` file to start Roblox and then re-attach. If you’re still experiencing issues, don’t worry just go to `%appdata%\Madium\Bin` and delete everything inside that folder. Then, grab a fresh copy of Madium from the [#download](https://discord.com/channels/1483453559692595252/1483497359748104344) channel or simply launch your bootstrapper to let it fully update Madium and then re-attach.
 
 {% hint style="info" %}
 <mark style="color:blue;">**Note**</mark> If you'd like to avoid re-downloading roblox with every update, you can use Roblox [#bootstrappers](support.md#bootstrappers "mention") such as Fishstrap as an example, simply head over to the deployment tab and switch the channel to [<mark style="color:$primary;">LIVE</mark>](#user-content-fn-2)[^2], as shown in the attached image below. It’s the simplest way to stay updated effortlessly!
@@ -79,29 +72,21 @@ This issue usually happens because your Roblox installation is outdated, or you'
 
 ***
 
-
-
-
-
 #### _Crash on Inject / Injection Timed Out_
 
 {% hint style="info" %}
-<mark style="color:blue;">**Note**</mark>  If after doing everything provided inside of here Roblox still crashes, try to download [<mark style="color:$warning;">**BitDefender**</mark> ](https://www.bitdefender.com/en-pl/consumer/fragments/trial)[<mark style="color:$primary;">**Antivirus**</mark> ](#user-content-fn-3)[^3]trail and turning it off, doing so it will override other [<mark style="color:$primary;">**Antivirus**</mark> ](#user-content-fn-3)[^3]software so only it handles everything.
+<mark style="color:blue;">**Note**</mark> If after doing everything provided inside of here Roblox still crashes, try to download [<mark style="color:$warning;">**BitDefender**</mark> ](https://www.bitdefender.com/en-pl/consumer/fragments/trial)[<mark style="color:$primary;">**Antivirus**</mark> ](#user-content-fn-3)[^3]trail and turning it off, doing so it will override other [<mark style="color:$primary;">**Antivirus**</mark> ](#user-content-fn-3)[^3]software so only it handles everything.
 {% endhint %}
 
-> Please follow all the steps outlined above. Make sure to exclude all Madium-related files from your antivirus software—they can be found at  `%appdata%\Madium\Bin`. Before you start using Madium, it's a good idea to temporarily disable your antivirus to ensure everything runs smoothly. We're here to help you have a seamless experience! Also remember to download all the required [#dependencies](support.md#dependencies "mention")  to prevent compatibility issues.
+> Please follow all the steps outlined above. Make sure to exclude all Madium-related files from your antivirus software—they can be found at `%appdata%\Madium\Bin`. Before you start using Madium, it's a good idea to temporarily disable your antivirus to ensure everything runs smoothly. We're here to help you have a seamless experience! Also remember to download all the required [#dependencies](support.md#dependencies "mention") to prevent compatibility issues.
 
 ***
-
-
 
 #### _Crash After X Minutes / DLL Disconnected_
 
-> Please ensure all Madium files inside  `%appdata%\Madium\Bin`  are added to your Antivirus exclusion list. For the best experience, consider temporarily disabling your Antivirus software while using Madium to prevent any false flags or interruptions. If you're using a Roblox Bootstrapper, kindly make sure it’s also excluded from your Antivirus. This way, everything runs smoothly and without any hiccups!
+> Please ensure all Madium files inside `%appdata%\Madium\Bin` are added to your Antivirus exclusion list. For the best experience, consider temporarily disabling your Antivirus software while using Madium to prevent any false flags or interruptions. If you're using a Roblox Bootstrapper, kindly make sure it’s also excluded from your Antivirus. This way, everything runs smoothly and without any hiccups!
 
 ***
-
-
 
 #### _Update Failed (Check Connection)_
 
@@ -110,14 +95,10 @@ This issue usually happens because your Roblox installation is outdated, or you'
 
 ***
 
-
-
-
-
 #### _Please set your preferred render mode to 'Direct3D 11' and relaunch_
 
 {% hint style="info" %}
-<mark style="color:blue;">**Note**</mark>  You need to have DirectX Runtime installed in order to use this rendering mode in Roblox in order to download the runtime check out [#dependencies](support.md#dependencies "mention").&#x20;
+<mark style="color:blue;">**Note**</mark> You need to have DirectX Runtime installed in order to use this rendering mode in Roblox in order to download the runtime check out [#dependencies](support.md#dependencies "mention").
 {% endhint %}
 
 > Start your Roblox Bootstrapper (if you don't have one, take a look at [#bootstrappers](support.md#bootstrappers "mention")).\
@@ -125,9 +106,84 @@ This issue usually happens because your Roblox installation is outdated, or you'
 
 ***
 
+### Additional solutions
+
+<details>
+
+<summary>Open additional community fixes for crash and injection issues</summary>
+
+> These fixes have helped some users with crash, injection, and DLL disconnect issues.
+>
+> They are <mark style="color:$warning;">not</mark> guaranteed fixes.
+>
+> Try the official steps on this page first.
+>
+> If needed, retry attach or inject a few times after each change.
 
 
 
+
+
+#### _Basic cleanup steps_
+
+These are simple fixes worth trying before deeper troubleshooting.
+
+1. Update **Madium** to the latest version.
+2. Update **Roblox Player** to the latest version.
+3. If the issue continues, reinstall **Madium** and **Roblox**.
+4. Press `Win + R`, type `%temp%`, and delete the files inside.
+5. Empty the **Recycle Bin**.
+6. Restart your PC.
+
+#### _Disable potentially unwanted app blocking_
+
+This setting can interfere with launching or injecting on some systems.
+
+1. Open **Windows Security**.
+2. Select **App & browser control**.
+3. Open **Reputation-based protection settings**.
+4. Find **Potentially unwanted app blocking**.
+5. Turn off **Block apps**.
+
+{% hint style="warning" %}
+This option does not appear on every system.
+
+Some Windows 10 and Windows 11 installs may not show it.
+{% endhint %}
+
+#### _Allow Madium through Windows Firewall_
+
+This can help when Madium fails during launch, attach, or update checks.
+
+1. Open **Windows Security**.
+2. Select **Firewall & network protection**.
+3. Click **Allow an app through firewall**.
+4. Click **Allow another app**.
+5. Add the `madium-launcher` file.
+6. Make sure **Public** is enabled for the app entry.
+
+#### _Lower CPU intensity limit_
+
+Some users report better stability with a lower CPU intensity value.
+
+1. Open **Madium**.
+2. Go to **Settings**.
+3. Find the CPU intensity option.
+4. Set it to `90%`.
+
+{% hint style="info" %}
+This is a stability tweak.
+
+It may reduce crashes for some users, but results can vary by system.
+{% endhint %}
+
+{% hint style="info" %}
+If these fixes do not help, use the [Support Server](https://discord.gg/j2fPwe3Dqk) for more help.
+{% endhint %}
+
+</details>
+
+***
 
 ### Missing Something?
 

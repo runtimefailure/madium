@@ -12,7 +12,7 @@ icon: book-open
 Docs Creators:
 
 * Ducky ([bruvzz (Ducky)](https://discord.com/users/1367846972358135890)) _(For list of_ [functions](functions/ "mention")_)_
-* Volt _(For the_ [actors](functions/actors/ "mention")  _docs)_
+* Volt _(For the_ [actors](functions/actors/ "mention"), [encoding](functions/encoding/ "mention"), [closures](functions/closures/ "mention"), [debug](functions/debug/ "mention"), [websocket](functions/websocket/ "mention"), [drawing](functions/drawing/ "mention"), [crypt](functions/crypt/ "mention"), [cache](functions/cache/ "mention") _and_ [oth](functions/oth/ "mention") _docs)_
 * Kamerzystanasyt ([kamerz](https://socl.gg/input)) _(For writing the docs for Madium)_.
 
 
