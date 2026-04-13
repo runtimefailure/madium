@@ -26,6 +26,7 @@ _Here are the required dependencies in order for_ [_<mark style="color:$primary;
 * [VCRedist x86 (2008)](https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe)
 * [VCRedist x64 (2008)](https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe)
 * [.NET 6.0 Desktop Runtime v6.0.33 x64](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.33/windowsdesktop-runtime-6.0.33-win-x64.exe)
+* [WebView 2 Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)
 
 ### Bootstrappers
 
@@ -108,7 +109,7 @@ This issue usually happens because your Roblox installation is outdated, or you'
 
 
 
-#### _White/Blank/Empty interface, without any UI elements_
+#### _White/Blank/Empty interface, without any UI components_
 
 > The simplest way to resolve this issue is to make sure that you have all [#dependencies](support.md#dependencies "mention") installed, and once you have all of those installed go to `%localappdata%`  and delete both `com.madium.app`  as well as `com.madium.executor`  folders, once you've done all of these steps restart your device and re-launch Madium.
 
