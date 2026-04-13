@@ -65,7 +65,7 @@ This issue usually happens because your Roblox installation is outdated, or you'
 > Head over to [inject.today/rdd](https://inject.today/rdd) to download the latest [<mark style="color:$primary;">LIVE</mark> ](#user-content-fn-2)[^2]version of Roblox. Once you’ve got it, simply run the `launcher.exe` file to start Roblox and then re-attach. If you’re still experiencing issues, don’t worry just go to `%appdata%\Madium\Bin` and delete everything inside that folder. Then, grab a fresh copy of Madium from the [#download](https://discord.com/channels/1483453559692595252/1483497359748104344) channel or simply launch your bootstrapper to let it fully update Madium and then re-attach.
 
 {% hint style="info" %}
-<mark style="color:blue;">**Note**</mark> If you'd like to avoid re-downloading roblox with every update, you can use Roblox [#bootstrappers](support.md#bootstrappers "mention") such as Fishstrap as an example, simply head over to the deployment tab and switch the channel to [<mark style="color:$primary;">LIVE</mark>](#user-content-fn-2)[^2], as shown in the attached image below. It’s the simplest way to stay updated effortlessly!
+<mark style="color:blue;">**Note**</mark> If you'd like to avoid re-downloading roblox with every update, you can use Roblox [#bootstrappers](support.md#bootstrappers "mention") such as Fishstrap as an example, simply head over to the deployment tab and switch the channel to [<mark style="color:$primary;">LIVE</mark>](#user-content-fn-2)[^2], as shown in the attached image below. It’s the simplest way to stay updated effortlessly! (also remember to change Automatic channel change action to Never chance because Roblox likes to change it sometimes)
 {% endhint %}
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
@@ -105,6 +105,14 @@ This issue usually happens because your Roblox installation is outdated, or you'
 > After launching click on configure settings, and once the settings window opens, go to the Engine Settings tab. Then, change the Rendering mode to Direct3D 11. After that, re-launch Roblox and Madium and your issue should be resolved.
 
 ***
+
+
+
+#### _White/Blank/Empty interface, without any UI elements_
+
+> The simplest way to resolve this issue is to make sure that you have all [#dependencies](support.md#dependencies "mention") installed, and once you have all of those installed go to `%localappdata%`  and delete both `com.madium.app`  as well as `com.madium.executor`  folders, once you've done all of these steps restart your device and re-launch Madium.
+
+
 
 ### Additional solutions
 
