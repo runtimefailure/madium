@@ -121,3 +121,39 @@ end
 raknet.add_send_hook(modify_packet)
 ```
 {% endcode %}
+
+{% code title="Desync Example" %}
+```lua
+local uis = game:GetService("UserInputService")
+local hooked = false
+local toggle = Enum.KeyCode.F --// the keybind for desync
+
+local function send_hook(packet)
+    if packet.PacketId == 0x1B then
+        local buf = packet.AsBuffer
+        buffer.writeu32(buf, 1, 0xFFFFFFFF)
+        buffer.writeu32(buf, 5, 0xFFFFFFFF)
+        buffer.writeu32(buf, 9, 0xFFFFFFFF)
+        packet:SetData(buf)
+    end
+end
+
+local function recv_hook(packet)
+    if packet.PacketId == 0x1B or packet.PacketId == 0x86 then
+        packet:Drop()
+    end
+end
+
+uis.InputBegan:Connect(function(obj)
+    if obj.KeyCode ~= toggle then return end
+    if hooked then
+        raknet.remove_send_hook(send_hook)
+        raknet.remove_recv_hook(recv_hook)
+    else
+        raknet.add_send_hook(send_hook)
+        raknet.add_recv_hook(recv_hook)
+    end
+    hooked = not hooked
+end)
+```
+{% endcode %}
